@@ -1,0 +1,14 @@
+.profile_photo.column-profile_photo img {
+    border-radius: 5px;
+}
+.username.column-username.has-row-actions img {
+    display: none;
+}
+.remove-user-image {
+    background: #d71919 !important;
+    color: #f1f1f1 !important;
+    border-color: #d71919 !important;
+    font-size: 29px !important;
+    line-height: 0 !important;
+    padding-bottom: 6px !important;
+}

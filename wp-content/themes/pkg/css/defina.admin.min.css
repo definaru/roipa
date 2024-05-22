@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+body, html {
+    font-family: 'Tenor Sans', sans-serif;
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #f7f4e2 !important;
+}
+input[type=checkbox]:checked::before {
+    content: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%0a318bc%27%2F%3E%3C%2Fsvg%3E);
+    margin: -0.1875rem 0 0 -0.25rem;
+    height: 1.3125rem;
+    width: 1.3125rem;
+}
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+    border-color: #0a318b;
+    box-shadow: none;
+    outline: none;
+}
+#user_login, #user_pass {
+    font-size: 18px;
+    border-radius: 7px;
+    border: 1px solid #efefef;
+    padding: 6px 20px;
+}
+
+#login form p {
+    margin-top: 7px;
+}
+input[type=checkbox]:checked::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M14.83 4.89l1.34.94-5.81 8.38H9.02L5.78 9.67l1.34-1.25 2.57 2.4z' fill='%23ddd'/%3E%3C/svg%3E");
+    margin: -1px;
+    height: 1rem;
+    width: 1rem;
+    background: #0a318b;
+    border-radius: 5px;
+}
+.login .button.wp-hide-pw:focus {
+    background: 0 0;
+    border-color: transparent;
+    box-shadow: none;
+    outline: none;
+}
+.language-switcher {
+    display: none;
+}
+a:focus {
+    color: #043959;
+    box-shadow: none;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+    color: #0a318b;
+}
+.wp-core-ui .button-primary {
+    background: #0a318b;
+    border-color: #0a318b;
+    color: #fff
+}
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #eaeaed;
+    box-shadow: 0 0px 128px rgb(0 0 0 / 31%);
+    border-radius: 7px;
+}
+label[for="user_pass"],
+label[for="user_login"] {
+    display: none;
+}
+::placeholder {
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+}
